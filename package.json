@@ -1,0 +1,11 @@
+{
+  "name": "horizontalslider",
+  "version": "1.0.0",
+  "description": "create hotizontal slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuliy Yefymenko",
+  "license": "ISC"
+}

@@ -1,0 +1,39 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: greenyellow;
+    display: none;
+    transition: left .7s;
+}
+
+
+.btn-group {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.btn{
+    padding: 10px;
+    border-radius: 50%;
+    background: yellowgreen;
+    margin: 4px;
+}
